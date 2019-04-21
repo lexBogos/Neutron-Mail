@@ -14,8 +14,7 @@ body {
   font-size: 14px;
   background-color: #FFF;
   padding: 0;
-  margin: auto;
-  width: 1800px;
+  margin: 0;
 }
 body ul {
   margin: 0;
@@ -361,10 +360,13 @@ p[class^="advantages_texts"]{
 }
 main{
   height: 2200px;
+  width: 1800px;
+  margin: auto;
 }
  .vert_line_1{
    position: relative;
    height: 9.14%;
+   width: 0px;
    top: -19.27%;
    border-left: 1px #B9B9B9 solid;
    left: 39.67%;
@@ -376,6 +378,7 @@ main{
   top: -22.82%;
   border-left: 1px #B9B9B9 solid;
   left: 63.67%;
+  width: 0px;
 }
 /* .hor_line_1{
   position: relative;
