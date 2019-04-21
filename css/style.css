@@ -10,13 +10,12 @@
     font-family: 'titillium-web-semibold';
     src: url('../fonts/titillium/titilliumwebsemibold.ttf');
 }
-
-
 body {
   font-size: 14px;
   background-color: #FFF;
   padding: 0;
-  margin: 0;
+  margin: auto;
+  width: 1800px;
 }
 body ul {
   margin: 0;
@@ -53,11 +52,9 @@ header{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
   width: 77.9%;
   margin-left: auto;
   margin-right: auto;
-
 }
 .languages_and_h1{
   margin-top: 80px;
@@ -78,7 +75,6 @@ header{
 .languages>ul>li:nth-child(odd) {
   border-bottom: 1px solid transparent;
   padding-bottom: 3px;
-
 }
 .languages>ul>li:nth-child(even) {
   user-select: none;
@@ -87,7 +83,6 @@ header{
   border-bottom: 1px solid #BFC5D4;
   text-shadow: 0 0 .65px #333, 0 0 .65px #333;
 }
-
 .nav>ul{
   display: flex;
   flex-direction: row;
@@ -97,18 +92,15 @@ header{
   font-size: 1.16em;
   letter-spacing: 0.01em;
 }
-
 .nav>ul>li:hover{
   text-shadow: 0 0 .65px #333, 0 0 .65px #333;
 }
-
 .navigation_and_login{
   margin-top: 88px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 672px;
-
 }
 .log_in>ul{
   display: flex;
@@ -116,7 +108,6 @@ header{
   width: 184px;
   justify-content: space-between;
 }
-
 .login_link{
   font-family: titillium-web-bold, sans-serif;
   color: #454545;
@@ -134,7 +125,6 @@ header{
   color: #582C7E;
   font-size: 1.16em !important;
 }
-
 .sub_button{
   background: linear-gradient(to bottom right, #582C7E 0%,  #6377CE 100%);
   height: 42px;
@@ -206,7 +196,6 @@ header{
   justify-content: space-between;
   align-items: center;
 }
-
   .create_acc_button{
     background: linear-gradient(to bottom right, #582C7E 0%,  #6377CE 100%);
     height: 56px;
@@ -241,19 +230,16 @@ header{
 .create_acc_button:hover,.create_acc_button_little:hover{
  animation: shadow-pulse 0.8s infinite;
 }
-
 .create_acc_button:active, .create_acc_button_little:active{
     box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1);
      animation: paused;
    }
-
 .right_side_link_bar{
   position: relative;
   top:-85.5%;
   left: 97.05%;
   height: 25.7%;
   width: 2%;
-
 }
 .right_side_link_bar>ul{
   display: flex;
@@ -261,14 +247,12 @@ header{
   flex-direction: column;
   justify-content: space-between;
 }
-
 .right_side_link_bar>ul>li{
   height: 19px;
   width:  19px;
   background-color: #676766;
   border-radius: 2px;
 }
-
 .right_side_link_bar>ul>li>a{
 position: relative;
 color: #FFF;
@@ -276,7 +260,6 @@ font-size: 0.9em;
 top:3px;
 padding: 2px;
 }
-
 .right_side_link_bar_2_link{
   left: 2px;
   font-size: 1.2em !important;
@@ -285,70 +268,120 @@ padding: 2px;
   background-color: #FFCE45;
 }
 .inscription_2{
-  height: 715px;
-  width:64.2%;
+  height: 424px;
+  width:74.2%;
   margin: auto;
   display:flex;
   justify-content: space-between;
 }
-.vert_line_1{
-  height: 28.62%;
-  border-left: 1px #B9B9B9 solid;
-  margin-left: 1.2%;
-}
-
 div[class^="inscription_2_"]{
-  margin-top: 10%;
-  height: 30%;
+  margin-top: 8.8%;
   text-align: left;
 }
 .img_inscription_2_1{
   position: relative;
-  left: -4%;
-  margin-top: 0.5%;
+  margin-top:-1%;
 }
 h3[class^="advantages_title"]{
   position: relative;
-  top: -28.7%;
-  left: 17%;
+  top: -20.5%;
+  left: 20.5%;
   font-size: 2.19em;
   font-family: titillium-web-regular, sans-serif;
   color: #555555;
 }
 p[class^="advantages_under_title"]{
   position: relative;
-  left: 16%;
-  top: -28%;
+  left: 20%;
+  top: -20%;
   font-size: 1.33em;
   font-family: titillium-web-regular, sans-serif;
   color: #959393;
 }
 p[class^="advantages_texts"]{
   position: relative;
-  top: -12.8%;
+  top: -10%;
+  left: 4%;
   line-height: 1.55em;
   font-family: titillium-web-regular, sans-serif;
   color: #959393;
   font-size: 1em;
   letter-spacing: 0.01em;
+  line-height: 1.6em
 }
-.img_inscription_2_2{
+.inscription_2_1{
+  margin-left: 5.7%;
+}
+.inscription_2_2{
+  width: 28%;
+  margin-right: 3.7%;
+  margin-top: 8.57% !important;
+}
+ .img_inscription_2_2{
   position: relative;
-  left: -1%;
-  margin-top: -1.7%;
+  left: 8%;
+  margin-top: 3%;
 }
 .advantages_title_2{
-  left: 25% !important;
+  top: -15.9% !important;
+  left: 25.2% !important;
+  letter-spacing: 0.005em;
 }
 .advantages_under_title_2{
-  left: 25% !important;
-  top:-27% !important;
-  letter-spacing: -0.01em !important;
+  left: 25.4% !important;
+  top: -15.1% !important;
+  letter-spacing: -0.004em !important;
 }
 .advantages_texts_2{
-  left: 7% !important;
-  top:-12% !important;
+  left: 10% !important;
+  top: -5.5% !important;
 }
-.vert_line_2{
 
+.inscription_2_3{
+  position:   relative;
+  left: -1.9%;
+  top: 0.95%;
 }
+.img_inscription_2_3{
+ position: relative;
+ margin-top: -1%;
+}
+.advantages_title_3{
+  top: -19% !important;
+  left: 21% !important;
+}
+.advantages_under_title_3{
+  top: -18.4% !important;
+  left: 21% !important;
+}
+.advantages_texts_3{
+  top: -8.5% !important;
+  left: 5% !important;
+  line-height: 1.6em !important;
+}
+main{
+  height: 2200px;
+}
+ .vert_line_1{
+   position: relative;
+   height: 9.14%;
+   top: -19.27%;
+   border-left: 1px #B9B9B9 solid;
+   left: 39.67%;
+}
+
+.vert_line_2{
+  position: relative;
+  height: 19.69%;
+  top: -22.82%;
+  border-left: 1px #B9B9B9 solid;
+  left: 63.67%;
+}
+/* .hor_line_1{
+  position: relative;
+  height: 0;
+  width: 20.36%;
+  border-top: 1px #B9B9B9 solid;
+  left: 4.45%;
+  top: 17.9%;
+} */
