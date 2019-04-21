@@ -380,11 +380,51 @@ main{
   left: 63.67%;
   width: 0px;
 }
-/* .hor_line_1{
-  position: relative;
-  height: 0;
-  width: 20.36%;
-  border-top: 1px #B9B9B9 solid;
-  left: 4.45%;
-  top: 17.9%;
-} */
+ .hor_line_1{
+   position: relative;
+   height: 0;
+   width: 16.36%;
+   border-top: 1px #B9B9B9 solid;
+   left: 83.45%;
+   top: -42.1%;
+}
+.second_inscription{
+  margin-top: -0.8%;
+  margin-left: 37.24%;
+  font-family: titillium-web-regular, sans-serif;
+  font-size: 4.36em;
+  color: #535353;
+  letter-spacing: 0.005em;
+}
+.second_inscription_added{
+  text-align: right;
+  margin-top: 0.82%;
+  margin-right: 38.7%;
+  font-family: titillium-web-regular, sans-serif;
+  font-size: 1.74em;
+  color: #959393;
+  letter-spacing: 0.004em;
+}
+.most_secure{
+  color:#f65151
+}
+.container_with_line{
+  width: 332px;
+  height: 60px;
+  margin-left: 54.12%;
+  margin-top: 1.3%;
+  border: 1px #B9B9B9 solid;
+  border-radius: 30px;
+}
+.with_line_par{
+  font-family: titillium-web-regular, sans-serif;
+  font-size: 1.14em;
+  color: #959393;
+  letter-spacing: 0.021em;
+  padding-top: 5.8%;
+  padding-left: 8.5%;
+}
+.newspapers{
+  margin-top: 3.2%;
+  margin-left: 1.2%;
+}
