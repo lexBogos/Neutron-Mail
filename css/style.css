@@ -205,7 +205,7 @@ header{
   align-items: center;
 }
   .create_acc_button{
-    background: linear-gradient(to bottom right, #582C7E 0%,  #6377CE 100%);
+    background: linear-gradient(to bottom right, #646C91 0%,  #5F2F69 100%);
     height: 56px;
     width: 247px;
     color: #FFF;
@@ -219,7 +219,7 @@ header{
     outline: none;
   }
   .create_acc_button_little{
-    background: linear-gradient(to bottom right, #582C7E 0%,  #6377CE 100%);
+    background-color: #634271;
     height: 46px;
     width: 46px;
     color: #FFF;
@@ -631,6 +631,13 @@ main{
     letter-spacing: 0.03em;
     outline: none;
   }
+  .container4_button1:hover,.container4_button2:hover{
+ animation: shadow-pulse 0.8s infinite;
+}
+.container4_button1:active, .container4_button2:active{
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1);
+     animation: paused;
+   }
 
 .fa-cloud-upload-alt{
     margin-bottom: 13px;
@@ -718,6 +725,9 @@ footer{
   color:#5c5c5c;
   font-family: titillium-web-bold, sans-serif;
 }
+.mail>ul>li>a:hover{
+  text-decoration: underline; 
+}
 .for_supp{
   margin-top: 7.5%;
   font-family: titillium-web-regular, sans-serif;
@@ -739,6 +749,11 @@ footer{
   justify-content: space-between;
   font-family: titillium-web-bold, sans-serif;
 }
+.for_supp>a:hover{
+      text-shadow: 1px 1px 2px black, 0 0 1em black; 
+    color: white;
+    font-size: 1.2em;
+} 
 
 .links_container>div>h4{
   font-size: 1.286em;
@@ -749,6 +764,9 @@ footer{
   font-family: titillium-web-regular, sans-serif;
   font-size: 1em;
   color: #5c5c5c;
+}
+.links_container>div>ul>li>a:hover{
+  text-decoration: underline;
 }
 .links_container>.links_container_2>ul>li>a{
       margin-right: 3%;
@@ -810,6 +828,9 @@ footer{
   text-decoration: underline;
   text-decoration-color: #DEDEDE;
 }
+.contacts_and_social>ul>li>a:hover{
+  text-decoration: underline; 
+}
 .contacts_and_social>ul>li>span{
   user-select: none;
 }
@@ -844,3 +865,66 @@ footer{
   border-left: 1px #B9B9B9 solid;
   left: 77.72%;
 }
+
+/*@media screen and (max-width: 1800px) {
+
+  body {
+    font-size: 33px;
+
+
+
+  }
+
+    .newspapers {
+      margin-top: 8.2%;
+      margin-left: 1.2%;
+  }
+
+  .right_side_link_bar {
+      position: relative;
+      top: -85.5%;
+      left: 91.05%;
+      height: 25.7%;
+      width: 2%;
+  }
+
+}*/
+@media screen and (max-width: 1800px) {
+
+  body {
+    font-size: 15px;
+  }
+
+    .newspapers {
+      margin-top: 3.2%;
+      margin-left: 8.2%;
+  }
+
+  .right_side_link_bar {
+      position: relative;
+      top: -85.5%;
+      left: 88.05%;
+      height: 25.7%;
+      width: 2%;
+  }
+
+  .vert_line_1 {
+      position: relative;
+      height: 9.14%;
+      width: 0px;
+      top: -34.18%;
+      border-left: 1px #B9B9B9 solid;
+      left: 39.67%;
+  }
+
+}
+
+/*@media screen and (max-width: 768px) {
+
+  body {
+
+    font-size: 15px;
+    
+  }
+
+}*/
