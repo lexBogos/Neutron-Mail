@@ -435,7 +435,7 @@ main{
   padding-left: 8.5%;
 }
 .newspapers{
-  margin-top: 3.2%;
+  margin-top: 2.2%;
   margin-left: 1.2%;
 }
  .hor_line_2{
@@ -692,7 +692,7 @@ footer{
 }
 .sponsor_list{
     width: 51%;
-    margin-top: 0.55%;
+    margin-top: 0.05%;
     margin-left: 25.8%;
 }
 .contacts_and_links{
@@ -726,7 +726,7 @@ footer{
   font-family: titillium-web-bold, sans-serif;
 }
 .mail>ul>li>a:hover{
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 .for_supp{
   margin-top: 7.5%;
@@ -750,10 +750,10 @@ footer{
   font-family: titillium-web-bold, sans-serif;
 }
 .for_supp>a:hover{
-      text-shadow: 1px 1px 2px black, 0 0 1em black; 
+      text-shadow: 1px 1px 2px black, 0 0 1em black;
     color: white;
     font-size: 1.2em;
-} 
+}
 
 .links_container>div>h4{
   font-size: 1.286em;
@@ -829,7 +829,7 @@ footer{
   text-decoration-color: #DEDEDE;
 }
 .contacts_and_social>ul>li>a:hover{
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 .contacts_and_social>ul>li>span{
   user-select: none;
@@ -865,30 +865,10 @@ footer{
   border-left: 1px #B9B9B9 solid;
   left: 77.72%;
 }
+.img_inscription_newspapers{
+      width: 53%;
+}
 
-/*@media screen and (max-width: 1800px) {
-
-  body {
-    font-size: 33px;
-
-
-
-  }
-
-    .newspapers {
-      margin-top: 8.2%;
-      margin-left: 1.2%;
-  }
-
-  .right_side_link_bar {
-      position: relative;
-      top: -85.5%;
-      left: 91.05%;
-      height: 25.7%;
-      width: 2%;
-  }
-
-}*/
 @media screen and (max-width: 1800px) {
 
   body {
@@ -917,14 +897,591 @@ footer{
       left: 39.67%;
   }
 
-}
-
-/*@media screen and (max-width: 768px) {
-
-  body {
-
-    font-size: 15px;
-    
+  header, main, footer{
+    width: 100%;
+  }
+  .create_acc_and_inscription {
+    width: 100%
+  }
+    .inscription_2{
+    width: 80%;
+  }
+    .advantages_title_3{
+    width: 70%;
+  }
+    .advantages_under_title_3{
+    width: 60%;
+  }
+    .newspapers {
+    margin-top: 3.2%;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .contacts_and_links{
+  width: 100%;
+  }
+  .second_inscription{
+    margin-left: 30.24%;
+  }
+  .vert_line_2{
+      height: 20.10%;
   }
 
+  .container_3_1_button1{
+    margin-left: 0;
+  }
+  .hor_line_5_1 {
+    width: 90%;;
+  }
+  .vert_line_5 {
+      left: 90%;
+    }
+  .sponsor_list {
+    margin-left: 20.8%;
+  }
+  .vert_line_4 {
+    left: 55.55%;
+  }
+}
+
+
+@media screen and (max-width: 1400px) {
+
+  body {
+    font-size: 15px;
+  }
+  .newspapers {
+      margin-top: 3.2%;
+      margin-left: 8.2%;
+  }
+  .right_side_link_bar {
+      position: relative;
+      top: -85.5%;
+      left: 88.05%;
+      height: 25.7%;
+      width: 2%;
+  }
+  .vert_line_1 {
+      position: relative;
+      height: 9.14%;
+      width: 0px;
+      top: -34.18%;
+      border-left: 1px #B9B9B9 solid;
+      left: 39.67%;
+  }
+  header, main, footer{
+    width: 100%;
+  }
+  .create_acc_and_inscription {
+    width: 100%
+  }
+  .vert_line_1, .vert_line_2, .hor_line_1, .hor_line_2, .hor_line_3_1, .hor_line_3_2, .hor_line_5_1, .vert_line_3, .vert_line_4, .vert_line_5, .hor_line_5_1{
+    border: none;
+    left:0;
+  }
+  .hor_line_1, .hor_line_2, .hor_line_3_1, .hor_line_3_2,  .hor_line_5_1{
+    width: 0%;
+  }
+  .inscription_2{
+    width: 100%;
+  }
+  .second_inscription_added {
+    text-align: center;
+    margin-top: 1.82%;
+    margin-right: 0%;
+
+  }
+  .second_inscription {
+    margin-left: 0%;
+    text-align: center;
+  }
+  .container_with_line{
+    margin-left: 35%;
+    width: 30%;
+  }
+  .newspapers {
+    margin-top: 3.2%;
+    width: 80%;
+    margin-left: 10%;
+}
+.contacts_and_links{
+  width: 100%;
+}
+.container_3_1{
+    position: relative;
+    left: 15%;
+    top: 27%;
+  }
+.container_3_1_button1{
+  margin-left: 0;
+}
+.contacts_and_social{
+  width: 40%;
+  margin-left: 12.2%;
+}
+  .sponsor_list{
+
+    width: 78%;
+    margin-top: 0.55%;
+    margin-left: 11%;
+  }
+.container_4{
+    width: 60%;
+    height: 10%;
+    left: 25%;
+  }
+  .footer_top_text {
+    width: 30%;
+    font-family: titillium-web-regular, sans-serif;
+    font-size: 1em;
+    color: #7a7a7a;
+    letter-spacing: 0.008em;
+}
+  .advantages_title_3{
+    width: 70%;
+  }
+  .advantages_under_title_3{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  body {
+    font-size: 15px;
+  }
+  .newspapers {
+      margin-top: 3.2%;
+      margin-left: 8.2%;
+  }
+  .right_side_link_bar {
+      position: relative;
+      top: -85.5%;
+      left: 88.05%;
+      height: 25.7%;
+      width: 2%;
+  }
+  .vert_line_1 {
+      height: 0%;
+      width: 0px;
+  }
+  header, main, footer{
+    width: 100%;
+  }
+
+  .inscription_2{
+    width: 100%;
+  }
+  .second_inscription_added {
+    text-align: center;
+    margin-top: 1.82%;
+    margin-right: 0%;
+
+  }
+  .second_inscription {
+    margin-left: 0%;
+    text-align: center;
+  }
+  .container_with_line{
+    margin-left: 35%;
+    width: 30%;
+  }
+
+.contacts_and_links{
+  width: 100%;
+}
+.container_3_1 {
+    position: relative;
+    left: 5%;
+    top: 27%;
+}
+.container_3_1_button1{
+  margin-left: 0;
+}
+.contacts_and_social{
+  width: 40%;
+  margin-left: 12.2%;
+}
+  .sponsor_list{
+
+    width: 78%;
+    margin-top: 0.55%;
+    margin-left: 11%;
+  }
+.container_4{
+    width: 60%;
+    height: 10%;
+    left: 25%;
+  }
+
+  .advantages_title_3{
+    width: 70%;
+  }
+  .advantages_under_title_3{
+    width: 60%;
+  }
+  .right_side_link_bar {
+    position: relative;
+    top: -65.5%;
+    left: 95.05%;
+    height: 25.7%;
+    width: 2%;
+  }
+  .inscription_2_1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    width: 30%;
+    height: 100%
+  }
+  .img_inscription_2_1{
+    width: 30%;
+  }
+  .inscription_2_1>h3{
+    margin-left: 10%;
+    margin-top: 15%;
+    width: 70%;
+  }
+  .inscription_2_1>p{
+     width: 70%;
+     position: static;
+  }
+  .inscription_2_1>.advantages_under_title{
+    margin-top: -15%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+  }
+  .inscription_2_2 {
+    width: 30%;
+  }
+   .inscription_2_2>h3{
+    margin-left: 16%;
+    margin-top: 4%;
+    width: 70%;
+  }
+  .inscription_2_2>p{
+     width: 70%;
+     position: static;
+  }
+  .inscription_2_2>.advantages_under_title_2{
+    margin-top: -15%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.img_inscription_2_2 {
+  position: relative;
+  left: 8%;
+  margin-top: 3%;
+  width: 30%;
+}
+  .inscription_2_3 {
+    width: 30%;
+  }
+  .inscription_2_3>h3{
+       margin-left: 10%;
+       margin-top: 7%;
+       width: 70%;
+  }
+  .inscription_2_3>p{
+     width: 70%;
+     position: static;
+  }
+  .inscription_2_3>.advantages_under_title_3{
+    margin-top: -15%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+  }
+  .img_inscription_2_3 {
+    width: 30%;
+    margin-top: 1%;
+}
+  .inscription_2 {
+    height: 22%;
+  }
+  .img_inscription_2_line{
+    width: 100%;
+  }
+  .inscription_3{
+    margin-bottom: 3%;
+  }
+  .container_with_line{
+    width: 38%;
+   }
+   .container_3 {
+    top: -20%;
+  }
+  .container_4{
+    margin-top: 10%;
+  }
+  .container_3 {
+    height: 35%;
+  }
+  .quote{
+    height: 42%;
+  }
+  .container_3_1 {
+    width: 70%;
+    margin-top: 20%;
+  }
+  .container_4 {
+    margin-top: 33%;
+  }
+  footer{
+        margin-top: 30%;
+  }
+  .links {
+    width: 50%;
+  }
+  .container_3_1{
+    left: 15%;
+  }
+  .container_3_1_h3{
+    margin-left: 25%;
+  }
+  .container_3_1_button1 {
+    margin-left: 25%;
+  }
+
+
+.navigation_and_languages {
+    width: 90%;
+  }
+
+/*.navigation_and_login {
+      width: 60%;
+      flex-direction: column;
 }*/
+
+@media all and (max-width: 800px) {
+  .newspapers {
+      margin-top: 3.2%;
+      width: 100%;
+      margin-left: 5%;
+  }
+  .quote {
+    position: relative;
+    top: 4%;
+    width: 32%;
+    height: 40%;
+    left: 20%;
+    display: flex;
+  }
+  .create_acc>ul {
+    position: relative;
+    left: 20%;
+    height: 209px;
+    width: 60%;
+  }
+  .inscription_2{
+    flex-direction: column;
+    height: 45%;
+  }
+  .inscription_2_1{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+  }
+  .img_inscription_2_1{
+        width: 20%;
+  }
+  .inscription_2_1>h3 {
+    margin-left: 10%;
+    margin-top: -15%;
+    width: 70%;
+  }
+  .inscription_2_1>.advantages_under_title {
+    margin-top: -3%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+  .inscription_2_1>p {
+    margin-left: 25%;
+    width: 70%;
+    position: static;
+  }
+  /*  */
+  .inscription_2_2{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+  }
+  .img_inscription_2_2{
+        width: 20%;
+        left: 5%;
+  }
+  .inscription_2_2>h3 {
+    margin-left: 10%;
+    margin-top: -15%;
+    width: 70%;
+  }
+  .inscription_2_2>.advantages_under_title_2 {
+    margin-top: -4%;
+    margin-left: 30%;
+    margin-bottom: 3%;
+}
+  .inscription_2_2>p {
+    margin-left: 25%;
+    width: 70%;
+    position: static;
+  }
+  /*  */
+  .inscription_2_3{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+  }
+  .img_inscription_2_3{
+    margin-left: 5%;
+        width: 20%;
+  }
+  .inscription_2_3>h3 {
+    margin-left: 10%;
+    margin-top: -15%;
+    width: 70%;
+  }
+  .inscription_2_3>.advantages_under_title_3 {
+    margin-top: -3%;
+    margin-left: 30%;
+    margin-bottom: 2%;
+}
+  .inscription_2_3>p {
+    margin-left: 25%;
+    width: 70%;
+    position: static;
+  }
+  .newspapers {
+    margin-left: 0%;
+  }
+  .quote {
+    left:0%;
+  }
+  .container_3_1 {
+    margin-top: 30%;
+}
+.container_4 {
+    margin-top: 68%;
+}
+footer {
+    margin-top: 120%;
+}
+.container_3_1_button1 {
+    margin-left: 0%;
+}
+.container_4_button{
+  margin-left: -20%;
+  width: 120%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10%;
+  }
+.sponsor_list {
+    width: 78%;
+    margin-top: 9.55%;
+    margin-left: 11%;
+  }
+  .container_4_1_h3 {
+      width: 110%;
+  }
+  .contacts_and_social {
+      width: 80%;
+      margin-left: 12.2%;
+  }
+  .img_inscription_2_line {
+    margin-top: 10%;
+  }
+  .footer_top_text {
+    margin-left: 79.5%;
+  }
+  .footer_top_text {
+    margin-top: 40.1%;
+  }
+}
+@media all and (max-width: 540px) {
+  .nav>ul {
+    flex-direction: column;
+    height: 100%;
+  }
+  .navigation_and_languages{
+    height: 90%;
+  }
+  .nav{
+    height: 100%;
+    width: 50%;
+    margin-left: 30%;
+  }
+  .log_in>ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 10%;
+  }
+  .log_in{
+    margin-left: 30%;
+  }
+  .create_acc>ul {
+    left: 15%;
+  }
+  .container_3{
+    background-image: url();
+  }
+  .container_3_1{
+    margin-top: 50%;
+  }
+  .container_4 {
+    margin-top: 100%;
+}
+footer {
+    margin-top: 200%;
+}
+  .navigation_and_login {
+      margin-right: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 20%;
+  }
+  .img_inscription_newspapers {
+    width: 100%;
+  }
+  .footer_top_text {
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+  .sponsor_list {
+    margin-top: 0%;
+  }
+  .sponsor_list {
+    width: 100%;
+    margin-top: 9.55%;
+    margin-left: 0%;
+  }
+  .contacts_and_links {
+    width: 100%;
+    margin-top: 9.55%;
+    display: flex;
+    flex-direction: column;
+  }
+  .mail {
+    width: 100%;
+    margin-left: 0%;
+  }
+  .links{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 0%;
+  }
+  .contacts_and_social{
+    margin-top: 20%;
+  }
+  .nav > ul {
+    width: 100%;
+  }
+  .log_in{
+    height: 70%;
+  }
+}
+
